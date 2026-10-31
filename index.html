@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luxury Advanced Beauty Center – Centro estetico a Roma</title>
+<meta name="description" content="Luxury Advanced Beauty Center a Roma, Via di Val Tellina 56–58. Massaggi, trattamenti viso, manicure, pedicure e semipermanente. Prenota su WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FBF7F4; --alt:#F3EAE6; --surface:#FFFFFF; --ink:#2A1A2E; --muted:#6F5C73; --plum:#33193A; --on-plum:#F6ECE8;
+  --gold:#A8803C; --gold-l:#D8B97A; --rose:#A9475E; --line:#E4D5D0;
+  --serif:"Cormorant Garamond",Georgia,"Times New Roman",serif; --sans:"Jost","Helvetica Neue",Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150C18;--alt:#1D1121;--surface:#26162B;--ink:#F4E9E6;--muted:#BBA5BF;--plum:#0F0712;--on-plum:#F4E9E6;--gold:#D8B97A;--rose:#E58CA0;--line:#3A2641}}
+:root[data-theme="dark"]{--bg:#150C18;--alt:#1D1121;--surface:#26162B;--ink:#F4E9E6;--muted:#BBA5BF;--plum:#0F0712;--on-plum:#F4E9E6;--gold:#D8B97A;--rose:#E58CA0;--line:#3A2641}
+html{color-scheme:light dark;scroll-behavior:smooth;scroll-padding-top:90px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold-l);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.btn{display:inline-block;text-decoration:none;font-weight:600;padding:14px 28px;border-radius:999px;transition:background .2s,color .2s,transform .2s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:var(--gold-l);color:#2A1A2E}
+.btn-wa:hover{background:#fff}
+.btn-line{border:1px solid var(--gold-l);color:var(--on-plum)}
+.btn-line:hover{background:var(--gold-l);color:#2A1A2E}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:var(--plum);color:var(--on-plum);border-bottom:1px solid rgba(216,185,122,.35)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-top:12px;padding-bottom:12px}
+.brand{font:600 1.4rem/1.1 var(--serif);letter-spacing:.03em;text-decoration:none}
+.brand small{display:block;font:400 .72rem/1.2 var(--sans);letter-spacing:.14em;color:var(--gold-l);margin-top:3px}
+nav{display:flex;gap:22px;font-size:.95rem}
+nav a{text-decoration:none;opacity:.85}
+nav a:hover{opacity:1;color:var(--gold-l)}
+.hdr-cta{display:flex;align-items:center;gap:14px}
+.tel{font-weight:600;text-decoration:none;white-space:nowrap}
+.hdr-cta .btn{padding:10px 20px;font-size:.95rem}
+
+/* hero */
+.hero{background:var(--plum);color:var(--on-plum);text-align:center;padding:96px 0 104px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:18px;border:1px solid rgba(216,185,122,.35);pointer-events:none}
+.hero .kicker{color:var(--gold-l);letter-spacing:.2em;font-size:.85rem;margin:0 0 18px}
+.hero h1{font:600 clamp(2.8rem,8vw,6rem)/1 var(--serif);margin:0 auto 12px;max-width:14ch}
+.hero .tag{font:italic 500 clamp(1.3rem,3vw,1.9rem)/1.3 var(--serif);color:var(--gold-l);margin:0 auto 20px}
+.hero p.sub{max-width:52ch;margin:0 auto 34px;opacity:.85}
+.hero .btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+/* sections */
+section{padding:84px 0}
+.alt{background:var(--alt)}
+.head{text-align:center;margin-bottom:44px}
+.head h2{font:600 clamp(2rem,4.5vw,3.2rem)/1.1 var(--serif);margin:0 0 10px}
+.head p{color:var(--muted);margin:0 auto;max-width:54ch}
+.rule{width:64px;height:1px;background:var(--gold);margin:16px auto 0}
+
+/* services */
+.svc{list-style:none;margin:0 auto;padding:0;max-width:820px}
+.svc li{display:flex;gap:18px;justify-content:space-between;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line)}
+.svc h3{font:600 1.55rem/1.2 var(--serif);margin:0}
+.svc small{color:var(--muted);display:block}
+.pr{text-align:right;white-space:nowrap}
+.pr .old{color:var(--muted);text-decoration:line-through;margin-right:8px}
+.pr .now{font:700 1.7rem/1 var(--serif);color:var(--gold)}
+.pr .ask{color:var(--muted);font-style:italic}
+.svc-note{max-width:820px;margin:18px auto 0;color:var(--muted);font-size:.92rem}
+
+/* combos */
+.combos{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.combo{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--gold);padding:30px 20px;text-align:center}
+.combo h3{font:600 1.5rem/1.2 var(--serif);margin:0 0 10px}
+.combo .p{font:700 2.4rem/1 var(--serif);color:var(--gold);margin:0 0 14px}
+.combo a{font-size:.92rem;color:var(--rose);font-weight:600}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.about h2{font:600 clamp(2rem,4.5vw,3.2rem)/1.1 var(--serif);margin:0 0 6px}
+.about .q{font:italic 500 1.7rem/1.35 var(--serif);color:var(--gold);border-left:2px solid var(--gold);padding-left:22px;margin:0}
+.vals{list-style:none;padding:0;margin:20px 0 0}
+.vals li{padding:10px 0;border-bottom:1px solid var(--line)}
+
+/* contact */
+.contact{background:var(--plum);color:var(--on-plum)}
+.contact .head p{color:var(--on-plum);opacity:.8}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-bottom:34px}
+.card{border:1px solid rgba(216,185,122,.4);padding:26px;text-align:center}
+.card h3{font:600 1.4rem/1.2 var(--serif);color:var(--gold-l);margin:0 0 8px}
+.card a{text-decoration:none}
+.card a:hover{color:var(--gold-l)}
+.contact .btns{text-align:center}
+footer{background:var(--plum);color:var(--on-plum);opacity:.9;text-align:center;padding:20px;font-size:.88rem;border-top:1px solid rgba(216,185,122,.25)}
+
+@media (max-width:860px){
+  nav{display:none}
+  .about{grid-template-columns:1fr;gap:30px}
+}
+@media (max-width:560px){
+  header .wrap{flex-wrap:wrap}
+  .hdr-cta{width:100%;justify-content:space-between}
+  .hero{padding:72px 0 80px}
+  section{padding:64px 0}
+  .svc li{flex-direction:column;gap:6px}
+  .pr{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Luxury Advanced Beauty Center<small>ROMA</small></a>
+    <nav aria-label="Navigazione principale">
+      <a href="#servizi">Servizi</a><a href="#combo">Beauty Combo</a><a href="#chi-siamo">Chi siamo</a><a href="#contatti">Contatti</a>
+    </nav>
+    <div class="hdr-cta">
+      <a class="tel" href="tel:+393519931459">+39 351 993 1459</a>
+      <a class="btn btn-wa" href="https://wa.me/393519931459" target="_blank" rel="noopener">Prenota su WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <p class="kicker">CENTRO ESTETICO · ROMA</p>
+      <h1>Luxury Advanced Beauty Center</h1>
+      <p class="tag">Il tuo momento di bellezza e relax.</p>
+      <p class="sub">Massaggi, trattamenti viso e cura di mani e piedi in un ambiente elegante, pensato per farti stare bene.</p>
+      <div class="btns">
+        <a class="btn btn-wa" href="https://wa.me/393519931459" target="_blank" rel="noopener">Prenota il tuo appuntamento</a>
+        <a class="btn btn-line" href="#servizi">Scopri i servizi</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="servizi">
+    <div class="wrap">
+      <div class="head">
+        <h2>I nostri servizi</h2>
+        <p>Trattamenti scelti per il benessere del corpo e la cura della pelle.</p>
+        <div class="rule"></div>
+      </div>
+      <ul class="svc">
+        <li><div><h3>Massaggio Rilassante</h3><small>45 minuti</small></div><div class="pr"><span class="old">€50</span><span class="now">€39</span></div></li>
+        <li><div><h3>Pulizia Viso</h3></div><div class="pr"><span class="old">€48</span><span class="now">€39</span></div></li>
+        <li><div><h3>Massaggio Viso</h3><small>30 minuti</small></div><div class="pr"><span class="ask">Chiedi il prezzo</span></div></li>
+        <li><div><h3>Massaggio Corpo</h3><small>45 minuti</small></div><div class="pr"><span class="ask">Chiedi il prezzo</span></div></li>
+        <li><div><h3>Manicure e Pedicure</h3></div><div class="pr"><span class="ask">Chiedi il prezzo</span></div></li>
+        <li><div><h3>Semipermanente Mani e Piedi</h3></div><div class="pr"><span class="old">€53</span><span class="now">€45</span></div></li>
+      </ul>
+      <p class="svc-note">I prezzi barrati sono i listini; i prezzi in evidenza sono quelli della promozione in corso.</p>
+    </div>
+  </section>
+
+  <section id="combo" class="alt">
+    <div class="wrap">
+      <div class="head">
+        <h2>Beauty Combo</h2>
+        <p>Cinque percorsi completi a prezzo speciale, per prenderti cura di te senza pensieri.</p>
+        <div class="rule"></div>
+      </div>
+      <div class="combos">
+        <div class="combo"><h3>Beauty Glow</h3><div class="p">€44</div><a href="https://wa.me/393519931459?text=Ciao!%20Vorrei%20prenotare%20il%20combo%20Beauty%20Glow" target="_blank" rel="noopener">Prenota</a></div>
+        <div class="combo"><h3>Luxury Relax</h3><div class="p">€65</div><a href="https://wa.me/393519931459?text=Ciao!%20Vorrei%20prenotare%20il%20combo%20Luxury%20Relax" target="_blank" rel="noopener">Prenota</a></div>
+        <div class="combo"><h3>Moment of Relax</h3><div class="p">€55</div><a href="https://wa.me/393519931459?text=Ciao!%20Vorrei%20prenotare%20il%20combo%20Moment%20of%20Relax" target="_blank" rel="noopener">Prenota</a></div>
+        <div class="combo"><h3>Hands &amp; Feet</h3><div class="p">€30</div><a href="https://wa.me/393519931459?text=Ciao!%20Vorrei%20prenotare%20il%20combo%20Hands%20%26%20Feet" target="_blank" rel="noopener">Prenota</a></div>
+        <div class="combo"><h3>Perfect Nails</h3><div class="p">€45</div><a href="https://wa.me/393519931459?text=Ciao!%20Vorrei%20prenotare%20il%20combo%20Perfect%20Nails" target="_blank" rel="noopener">Prenota</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="chi-siamo">
+    <div class="wrap about">
+      <div>
+        <h2>Chi siamo</h2>
+        <div class="rule" style="margin:16px 0 22px"></div>
+        <p>Luxury Advanced Beauty Center è un centro estetico nel cuore di Roma, dedicato al benessere e alla cura della persona. Ogni trattamento è pensato per regalarti una pausa di relax e farti sentire al meglio.</p>
+        <ul class="vals">
+          <li>Trattamenti viso, corpo e unghie in un unico centro</li>
+          <li>Un ambiente curato, tranquillo e accogliente</li>
+          <li>Prenotazione semplice e veloce su WhatsApp</li>
+        </ul>
+      </div>
+      <p class="q">Dedicarsi un po' di tempo non è un lusso: è il modo migliore per iniziare a stare bene.</p>
+    </div>
+  </section>
+
+  <section id="contatti" class="contact">
+    <div class="wrap">
+      <div class="head">
+        <h2>Contatti e prenotazioni</h2>
+        <p>Scrivici su WhatsApp o chiamaci: troveremo insieme il momento giusto per te.</p>
+        <div class="rule"></div>
+      </div>
+      <div class="cards">
+        <div class="card"><h3>Telefono / WhatsApp</h3><a href="tel:+393519931459">+39 351 993 1459</a></div>
+        <div class="card"><h3>Indirizzo</h3><a href="https://www.google.com/maps/search/?api=1&query=Via+di+Val+Tellina+56+Roma" target="_blank" rel="noopener">Via di Val Tellina 56–58<br>00151 Roma, Italia</a></div>
+      </div>
+      <div class="btns"><a class="btn btn-wa" href="https://wa.me/393519931459" target="_blank" rel="noopener">Prenota su WhatsApp</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>© Luxury Advanced Beauty Center · Via di Val Tellina 56–58, 00151 Roma · +39 351 993 1459</footer>
+</body>
+</html>
